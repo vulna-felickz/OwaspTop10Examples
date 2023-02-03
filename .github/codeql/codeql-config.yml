@@ -1,0 +1,9 @@
+name: "Advanced Security Field - SUPER EXTENDED queries"
+
+queries:
+    # Simple Query
+    #- uses: advanced-security/codeql-queries/{LANGUAGE}/CWE-{CWEID}/{QUERY_NAME}.ql@main
+    # Super Extended - https://github.com/advanced-security/codeql-queries/tree/main/csharp#readme
+    - uses: advanced-security/codeql-queries/csharp/suites/codeql-csharp.qls@main		
+    # Audit queries
+    #- uses: advanced-security/codeql-queries/{LANGUAGE}/suites/codeql-{LANGUAGE}-audit.qls@main
